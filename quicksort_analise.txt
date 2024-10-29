@@ -1,0 +1,5 @@
+1/2. Implementação indisponível. Motivo: por burrice eu sem querer dei um rm na pasta do trabalho.
+
+3. A complexidade do quicksort no melhor caso é n log n pois o algoritmo de particionamento possui complexidade O(n) e ele gera uma árvore de recursão O(log n), logo o algoritmo é O(n log n). No pior caso, ele gera uma árvore de recursão desbalanceada, com tamanho O(n), logo o algoritmo é O(n^2).
+
+4/5. Foram implementados 5 tipos de escolha de pivô: primeiro elemento, último elemento, elemento do meio, elemento aleatório e mediana entre três elementos. Os dois primeiros tipos são desbalanceados com arrays crescentes/decrescentes, portanto apresentaram desempenho subótimo. Os outros três algoritmos apresentaram desempenho similar para todos os tipos de array (aleatório, crescente e decrescente).
